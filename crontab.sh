@@ -1,8 +1,8 @@
 #!/bin/sh
 
-git config --global user.name dldudgjs31
-git config --global user.email dldudgjs31@naver.com
-git config --list > git_id_check
+/root/bin/git config --global user.name dldudgjs31
+/root/bin/git config --global user.email dldudgjs31@naver.com
+/root/bin/git config --list > git_id_check
 
 cd /root/silk/Crontab_git_push/
 
