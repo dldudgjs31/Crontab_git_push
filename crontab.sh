@@ -12,6 +12,8 @@ cd /root/silk/Crontab_git_push/
 
 echo $(date) >> test.txt
 
+/root/bin/git add .
+
 eval $(ssh-agent -s)
 
 ssh-add ~/.ssh/lee
